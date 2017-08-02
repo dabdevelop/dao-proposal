@@ -2,9 +2,9 @@ pragma solidity ^0.4.11;
 
 import './interfaces/IProposal.sol';
 import './interfaces/ISmartToken.sol';
+import './interfaces/IDABDao.sol';
 import './Owned.sol';
 import './SafeMath.sol';
-import './DABDao.sol';
 import './SmartTokenController.sol';
 
 contract Proposal is IProposal, Owned, SafeMath{
@@ -16,13 +16,13 @@ contract Proposal is IProposal, Owned, SafeMath{
 
     uint256 public proposalPrice;
 
-    DABDao public dao;
+    IDABDao public dao;
     ISmartToken public depositToken;
     ISmartToken public voteToken;
     SmartTokenController public voteTokenController;
 
     function Proposal(
-    DABDao _dao,
+    IDABDao _dao,
     SmartTokenController _voteTokenController,
     address _proposalContract,
     uint256 _duration)

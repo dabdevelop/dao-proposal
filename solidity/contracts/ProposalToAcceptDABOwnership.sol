@@ -1,13 +1,13 @@
 pragma solidity ^0.4.11;
 
-import './DABDao.sol';
+import './interfaces/IDABDao.sol';
 import './Proposal.sol';
 
 contract ProposalToAcceptDABOwnership is Proposal{
 
 
     function ProposalToAcceptDABOwnership(
-    DABDao _dao,
+    IDABDao _dao,
     SmartTokenController _voteTokenController,
     address _proposalContract,
     uint256 _duration)
