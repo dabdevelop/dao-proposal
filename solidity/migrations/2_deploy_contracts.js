@@ -4,6 +4,7 @@ var VoteTokenController = artifacts.require("VoteTokenController.sol");
 var ProposalToAcceptDABOwnership = artifacts.require("ProposalToAcceptDABOwnership.sol");
 
 let duration = 30 * 24 * 60 * 60; // proposal duration
+// This should be a real DABDao address, otherwise migration will fail.
 let DABDaoAddress = "0xef21e4d61602ed39b10314f60024363ba3ed6e86";
 let proposalContractAddress = "0x0";
 
