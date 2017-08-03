@@ -76,10 +76,6 @@ contract Proposal is IProposal, Owned, SafeMath{
         voteTokenController.acceptOwnership();
     }
 
-    function getProposalContract() public returns (address){
-        return proposalContract;
-    }
-
     function propose() public ownerOnly proposeStage{
         uint256 voteTokenSupply = voteToken.totalSupply();
         require(voteTokenSupply == 0);
