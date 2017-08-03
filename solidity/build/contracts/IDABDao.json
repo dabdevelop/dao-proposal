@@ -38,14 +38,6 @@
     {
       "constant": false,
       "inputs": [],
-      "name": "activate",
-      "outputs": [],
-      "payable": false,
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [],
       "name": "transferDABOwnership",
       "outputs": [],
       "payable": false,
@@ -72,14 +64,6 @@
         }
       ],
       "name": "vote",
-      "outputs": [],
-      "payable": false,
-      "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [],
-      "name": "freeze",
       "outputs": [],
       "payable": false,
       "type": "function"
@@ -151,5 +135,5 @@
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1501676509673
+  "updated_at": 1501762083536
 }
