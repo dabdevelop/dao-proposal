@@ -15,9 +15,8 @@ contract ProposalToTransferDABOwnership is Proposal{
     }
 
     function execute() public excuteStage {
-    // accept DAB ownership
+    // transfer DAB ownership
         dao.transferDABOwnership();
-        redeemTime = now;
     }
 
 }

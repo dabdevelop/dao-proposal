@@ -15,9 +15,8 @@ contract ProposalToDisableLoanPlanFormula is Proposal{
     }
 
     function execute() public excuteStage {
-    // accept DAB ownership
+    // disable LoanPlanFormula
         dao.disableLoanPlanFormula();
-        redeemTime = now;
     }
 
 }

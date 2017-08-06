@@ -15,9 +15,8 @@ contract ProposalToAddLoanPlanFormula is Proposal{
     }
 
     function execute() public excuteStage {
-    // accept DAB ownership
+    // add LoanPlanFormula
         dao.addLoanPlanFormula();
-        redeemTime = now;
     }
 
 }

@@ -12,7 +12,6 @@ contract Proposal is IProposal, Owned, SafeMath{
     address public proposalContract;
     uint256 public startTime;
     uint256 public endTime;
-    uint256 public redeemTime;
 
     uint256 public proposalPrice;
 
@@ -35,7 +34,6 @@ contract Proposal is IProposal, Owned, SafeMath{
         proposalContract = _proposalContract;
         startTime = now + 1 days;
         endTime = startTime + _duration;
-        redeemTime = endTime + 1 days;
 
         depositToken = dao.depositToken();
         proposalPrice = dao.proposalPrice();
@@ -63,12 +61,12 @@ contract Proposal is IProposal, Owned, SafeMath{
     }
 
     modifier excuteStage(){
-        require(now > startTime && now < redeemTime);
+        require(now > startTime);
         _;
     }
 
     modifier redeemStage(){
-        require(now > redeemTime);
+        require(now > startTime);
         _;
     }
 

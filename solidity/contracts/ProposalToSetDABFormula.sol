@@ -15,9 +15,8 @@ contract ProposalToSetDABFormula is Proposal{
     }
 
     function execute() public excuteStage {
-    // accept DAB ownership
+    // set DAB Formula
         dao.setDABFormula();
-        redeemTime = now;
     }
 
 }
