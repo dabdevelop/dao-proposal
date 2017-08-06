@@ -15,7 +15,7 @@ let AddDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
 let DisableDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
 let NewDABDaoAddress = "0xc32cf3b91b31f200c750aa471fa574229ba1ceb1";
 
-let chooser = 2;
+let chooser = 1;
 
 var Proposal;
 
