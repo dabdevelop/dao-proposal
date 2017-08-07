@@ -13,7 +13,7 @@ let DABDaoAddress = "0x89dca61ef69325eb8784988876bb77ea3e77632e";
 let DABFormulaAddress = "0x4c700842958bb18aebf1a13dce31a106f5574a79";
 let AddDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
 let DisableDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
-let NewDABDaoAddress = "0xc32cf3b91b31f200c750aa471fa574229ba1ceb1";
+let NewDABDaoAddress = "0xf485e24d58999879c41d99200dcd8b9addf01cd9";
 
 let chooser = 4;
 
