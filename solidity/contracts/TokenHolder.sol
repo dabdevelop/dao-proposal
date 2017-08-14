@@ -44,10 +44,9 @@ contract TokenHolder is ITokenHolder, Owned {
     public
     ownerOnly
     validAddress(_token)
-    // validAddress(_to)
+    validAddress(_to)
     notThis(_to)
     {
-        require(_to != 0x0);
         assert(_token.transfer(_to, _amount));
     }
 

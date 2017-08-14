@@ -85,27 +85,6 @@
       "type": "function"
     },
     {
-      "constant": false,
-      "inputs": [],
-      "name": "acceptOwnership",
-      "outputs": [],
-      "payable": false,
-      "type": "function"
-    },
-    {
-      "constant": true,
-      "inputs": [],
-      "name": "owner",
-      "outputs": [
-        {
-          "name": "owner",
-          "type": "address"
-        }
-      ],
-      "payable": false,
-      "type": "function"
-    },
-    {
       "constant": true,
       "inputs": [],
       "name": "depositToken",
@@ -117,23 +96,10 @@
       ],
       "payable": false,
       "type": "function"
-    },
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "_newOwner",
-          "type": "address"
-        }
-      ],
-      "name": "transferOwnership",
-      "outputs": [],
-      "payable": false,
-      "type": "function"
     }
   ],
   "unlinked_binary": "0x",
   "networks": {},
   "schema_version": "0.0.5",
-  "updated_at": 1502069238718
+  "updated_at": 1502693761389
 }

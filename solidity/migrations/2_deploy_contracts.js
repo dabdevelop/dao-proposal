@@ -9,13 +9,13 @@ var ProposalToTransferDABOwnership = artifacts.require("ProposalToTransferDABOwn
 
 let duration = 30 * 24 * 60 * 60; // proposal duration
 // This should be a real DABDao address, otherwise migration will fail.
-let DABDaoAddress = "0x89dca61ef69325eb8784988876bb77ea3e77632e";
+let DABDaoAddress = "0x5c8cc4573a9f4a68a09b0db1a9554e97716a2a5c";
 let DABFormulaAddress = "0x4c700842958bb18aebf1a13dce31a106f5574a79";
 let AddDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
 let DisableDABLoanPlanFormulaAddress = "0x6618e656af995c0b004fba3320feb507d14700ac";
 let NewDABDaoAddress = "0xf485e24d58999879c41d99200dcd8b9addf01cd9";
 
-let chooser = 4;
+let chooser = 1;
 
 var Proposal;
 
